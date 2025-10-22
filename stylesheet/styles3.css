@@ -1,0 +1,130 @@
+/* 
+ Student Name: Hope Phillips
+ File Name: styles3.css
+ Date: 04/11/2023
+-->
+
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body and images */
+body {
+    background-color: #faf7f6;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;  
+}
+
+
+/*Style rules for mobile viewport*/
+
+
+/*Style rule to hide tablet-desk class*/
+.tablet-desk {
+    display: none;
+}
+
+/* Style rule for header */
+header {
+    font-family: 'Antic Slab', serif;
+    background-color: #faf7f6;
+    text-align: center;
+    padding: 30px 10%;
+    color: #151111;
+    font-size: 30px;
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+/* Style rules for nav */
+nav {
+    font-family: 'Antic Slab', serif;
+    padding: 1.5%;
+    background-color: #faf7f6;
+    text-align: center;
+    font-size: 15px; 
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0px ;
+    transition: 0.2s;
+    display: inline-block;
+    padding: 0px 10px
+}
+
+nav a:hover {
+    color: #ffa800;
+}
+
+.social-icon {
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 18px; 
+    transition: transform 0.5s;
+}
+
+.social-icon:hover {
+    color: #ffa800;
+    transform: scale(1.3);
+}
+
+/* Style rules for main content  */
+main {
+    display: block;
+    background-color: #faf7f6;
+    font-family: 'Antic Slab', serif;
+    padding: 30px 10%;
+}
+
+h2 {
+    color: #ffa800;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    max-width: 50%;
+    max-height: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    font-size: 16px;
+    padding-left: 0px;
+    padding-right: 100px; 
+}
+
+/* Style rule for footer */
+footer {
+    font-family: 'Antic Slab', serif; 
+    font-size: .70em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+
