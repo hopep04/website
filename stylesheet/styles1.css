@@ -103,11 +103,12 @@ img {
 
 .centered {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #f4f1dd; 
+    color: #a4b628; 
     text-align: center; 
+    font-size: 80px;
 }
 
 .icon {
